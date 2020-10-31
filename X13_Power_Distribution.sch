@@ -5214,13 +5214,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <attribute name="VALUE" x="204.47" y="19.304" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="204.47" y="37.338" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BRICK2_SMBUS" gate="G$1" x="95.25" y="29.21" smashed="yes">
-<attribute name="VALUE" x="92.71" y="19.304" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="92.71" y="37.338" size="1.778" layer="95" font="vector"/>
+<instance part="BRICK2_SMBUS" gate="G$1" x="102.87" y="29.21" smashed="yes">
+<attribute name="VALUE" x="100.33" y="19.304" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="100.33" y="37.338" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="BRICK1_SMBUS" gate="G$1" x="66.04" y="29.21" smashed="yes">
-<attribute name="VALUE" x="63.5" y="19.304" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="63.5" y="37.338" size="1.778" layer="95" font="vector"/>
+<instance part="BRICK1_SMBUS" gate="G$1" x="73.66" y="29.21" smashed="yes">
+<attribute name="VALUE" x="71.12" y="19.304" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="71.12" y="37.338" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="R4" gate="G$1" x="194.31" y="130.81" smashed="yes" rot="R90">
 <attribute name="NAME" x="192.786" y="130.81" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -5621,13 +5621,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="168.91" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="26.67" x2="77.47" y2="26.67" width="0.1524" layer="91"/>
-<label x="77.47" y="26.67" size="0.8128" layer="95" xref="yes"/>
+<wire x1="81.28" y1="26.67" x2="85.09" y2="26.67" width="0.1524" layer="91"/>
+<label x="85.09" y="26.67" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK1_SMBUS" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="102.87" y1="26.67" x2="106.68" y2="26.67" width="0.1524" layer="91"/>
-<label x="106.68" y="26.67" size="0.8128" layer="95" xref="yes"/>
+<wire x1="110.49" y1="26.67" x2="114.3" y2="26.67" width="0.1524" layer="91"/>
+<label x="114.3" y="26.67" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK2_SMBUS" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -5888,13 +5888,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 </net>
 <net name="CLK" class="0">
 <segment>
-<wire x1="102.87" y1="29.21" x2="106.68" y2="29.21" width="0.1524" layer="91"/>
-<label x="106.68" y="29.21" size="0.8128" layer="95" xref="yes"/>
+<wire x1="110.49" y1="29.21" x2="114.3" y2="29.21" width="0.1524" layer="91"/>
+<label x="114.3" y="29.21" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK2_SMBUS" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="29.21" x2="77.47" y2="29.21" width="0.1524" layer="91"/>
-<label x="77.47" y="29.21" size="0.8128" layer="95" xref="yes"/>
+<wire x1="81.28" y1="29.21" x2="85.09" y2="29.21" width="0.1524" layer="91"/>
+<label x="85.09" y="29.21" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK1_SMBUS" gate="G$1" pin="3"/>
 </segment>
 <segment>
@@ -5915,13 +5915,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="207.01" y="124.46" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="102.87" y1="31.75" x2="106.68" y2="31.75" width="0.1524" layer="91"/>
-<label x="106.68" y="31.75" size="0.8128" layer="95" xref="yes"/>
+<wire x1="110.49" y1="31.75" x2="114.3" y2="31.75" width="0.1524" layer="91"/>
+<label x="114.3" y="31.75" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK2_SMBUS" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="31.75" x2="77.47" y2="31.75" width="0.1524" layer="91"/>
-<label x="77.47" y="31.75" size="0.8128" layer="95" xref="yes"/>
+<wire x1="81.28" y1="31.75" x2="85.09" y2="31.75" width="0.1524" layer="91"/>
+<label x="85.09" y="31.75" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK1_SMBUS" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -5937,13 +5937,13 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <label x="194.31" y="124.46" size="0.8128" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<wire x1="102.87" y1="34.29" x2="106.68" y2="34.29" width="0.1524" layer="91"/>
-<label x="106.68" y="34.29" size="0.8128" layer="95" xref="yes"/>
+<wire x1="110.49" y1="34.29" x2="114.3" y2="34.29" width="0.1524" layer="91"/>
+<label x="114.3" y="34.29" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK2_SMBUS" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<wire x1="73.66" y1="34.29" x2="77.47" y2="34.29" width="0.1524" layer="91"/>
-<label x="77.47" y="34.29" size="0.8128" layer="95" xref="yes"/>
+<wire x1="81.28" y1="34.29" x2="85.09" y2="34.29" width="0.1524" layer="91"/>
+<label x="85.09" y="34.29" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BRICK1_SMBUS" gate="G$1" pin="5"/>
 </segment>
 <segment>
@@ -6329,9 +6329,9 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <net name="C2_2" class="0">
 <segment>
 <pinref part="BRICK2_SMBUS" gate="G$1" pin="1"/>
-<wire x1="102.87" y1="24.13" x2="106.68" y2="24.13" width="0.1524" layer="91"/>
-<label x="106.68" y="24.13" size="0.8128" layer="95" xref="yes"/>
-<label x="106.68" y="24.13" size="0.8128" layer="95" xref="yes"/>
+<wire x1="110.49" y1="24.13" x2="114.3" y2="24.13" width="0.1524" layer="91"/>
+<label x="114.3" y="24.13" size="0.8128" layer="95" xref="yes"/>
+<label x="114.3" y="24.13" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE_SMBUS" gate="G$1" pin="10"/>
@@ -6342,8 +6342,8 @@ This was SPECIALLY designed to be used with our Graphic LCD Backpack.  Be sure y
 <net name="C2_1" class="0">
 <segment>
 <pinref part="BRICK1_SMBUS" gate="G$1" pin="1"/>
-<wire x1="77.47" y1="24.13" x2="73.66" y2="24.13" width="0.1524" layer="91"/>
-<label x="77.47" y="24.13" size="0.8128" layer="95" xref="yes"/>
+<wire x1="85.09" y1="24.13" x2="81.28" y2="24.13" width="0.1524" layer="91"/>
+<label x="85.09" y="24.13" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="BACKPLANE_SMBUS" gate="G$1" pin="8"/>
