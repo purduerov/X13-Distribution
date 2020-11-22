@@ -2480,6 +2480,20 @@ Silk outline shows header location.
 <text x="-1.397" y="0.762" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.524" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="BANANA_CONN" urn="urn:adsk.eagle:footprint:37619/1" library_version="1">
+<description>&lt;h3&gt;Banana Plug PTH&lt;/h3&gt;
+0.2" diameter pad, 0.1" hole. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 1&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;BANANA_CONN&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<circle x="0" y="0" radius="2.8398" width="0.127" layer="21"/>
+<pad name="P$1" x="0" y="0" drill="3.81" diameter="5.461"/>
+<text x="-2.54" y="3.302" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-2.54" y="-3.937" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="2X4" urn="urn:adsk.eagle:package:38103/1" type="box" library_version="1">
@@ -2730,6 +2744,19 @@ CONN_04
 <packageinstance name="1X04_SMD_RA_FEMALE"/>
 </packageinstances>
 </package3d>
+<package3d name="BANANA_CONN" urn="urn:adsk.eagle:package:38018/1" type="box" library_version="1">
+<description>Banana Plug PTH
+0.2" diameter pad, 0.1" hole. 
+Specifications:
+Pin count: 1
+
+Example device(s):
+BANANA_CONN
+</description>
+<packageinstances>
+<packageinstance name="BANANA_CONN"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CONN_04X2" urn="urn:adsk.eagle:symbol:37719/1" library_version="1">
@@ -2774,6 +2801,14 @@ CONN_04
 <pin name="2" x="5.08" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="4" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="BANANA_CONN" urn="urn:adsk.eagle:symbol:37618/1" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.2951" width="0.254" layer="94"/>
+<text x="-1.016" y="1.778" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-3.048" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3126,6 +3161,33 @@ CONN_04
 </device>
 </devices>
 </deviceset>
+<deviceset name="BANANA_CONN" urn="urn:adsk.eagle:component:38313/1" prefix="J" uservalue="yes" library_version="1">
+<description>&lt;h3&gt;Through-hole Banana Jack&lt;/h3&gt;
+&lt;p&gt;Basic PTH connection for banana jack plugs&lt;/p&gt;
+&lt;p&gt;SparkFun Products:
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/10956"&gt;Multimeter Kit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/509"&gt;Banana to Alligator Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/508"&gt;Banana to Alligator Coax Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/507"&gt;Banana to Banana Cable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/retired/506"&gt;Banana to IC Hook Cables&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BANANA_CONN" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BANANA_CONN">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38018/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="INA4181A4">
@@ -3215,6 +3277,8 @@ CONN_04
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04X2" device="" package3d_urn="urn:adsk.eagle:package:38103/1"/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 <part name="RSEN" library="INA4181A4" deviceset="CSS2H-2512" device="" value="0.01"/>
+<part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
+<part name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="BANANA_CONN" device="" package3d_urn="urn:adsk.eagle:package:38018/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3354,6 +3418,14 @@ CONN_04
 <instance part="RSEN" gate="G$1" x="139.7" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.62" y="132.08" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="144.78" y="132.08" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="J6" gate="G$1" x="63.5" y="99.06" smashed="yes" rot="MR0">
+<attribute name="NAME" x="64.516" y="100.838" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="64.516" y="96.012" size="1.778" layer="96" font="vector" rot="MR0"/>
+</instance>
+<instance part="J7" gate="G$1" x="63.5" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="64.516" y="93.218" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="64.516" y="88.392" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -3632,6 +3704,11 @@ CONN_04
 <junction x="38.1" y="66.04"/>
 <label x="40.64" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="91.44" x2="71.12" y2="91.44" width="0.1524" layer="91"/>
+<label x="71.12" y="91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -3714,8 +3791,13 @@ CONN_04
 <wire x1="22.86" y1="91.44" x2="20.32" y2="91.44" width="0.1524" layer="91"/>
 <label x="20.32" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="66.04" y1="99.06" x2="71.12" y2="99.06" width="0.1524" layer="91"/>
+<label x="71.12" y="99.06" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
-<net name="N$3" class="0">
+<net name="VCC" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VCC"/>
 <wire x1="104.14" y1="144.78" x2="106.68" y2="144.78" width="0.1524" layer="91"/>
@@ -3736,7 +3818,7 @@ CONN_04
 <pinref part="C9" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="GATE" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="PGATE"/>
 <wire x1="104.14" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
@@ -3775,7 +3857,7 @@ CONN_04
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="RT" class="0">
 <segment>
 <pinref part="RT" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="RT"/>
@@ -3785,7 +3867,7 @@ CONN_04
 <wire x1="55.88" y1="129.54" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="FB" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="FB"/>
 <wire x1="109.22" y1="124.46" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
