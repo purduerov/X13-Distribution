@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -706,6 +706,20 @@ CONN_04
 </package3d>
 </packages3d>
 </library>
+<library name="INA4181A4">
+<packages>
+<package name="CSS2H-2512">
+<smd name="1" x="0" y="0" dx="3.4" dy="1.8" layer="1"/>
+<smd name="2" x="0" y="5.2" dx="3.4" dy="1.8" layer="1"/>
+<text x="-2.54" y="7.62" size="1.27" layer="25">&gt;Name</text>
+<text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;Value</text>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="6.35" width="0.127" layer="21"/>
+<wire x1="2.54" y1="6.35" x2="-2.54" y2="6.35" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -924,17 +938,17 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-00810" x="-14.605" y="-12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="30.353" y="16.51" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C7" library="brick-capacitor-UCM1H331MNL1GS" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="47uF" x="34.925" y="41.91" smashed="yes" rot="R270">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="6.985" y="5.08" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="37.211" y="41.656" size="1.27" layer="25" rot="R270" align="center"/>
-<attribute name="VALUE" x="32.385" y="41.91" size="1.27" layer="27" rot="R270" align="center"/>
+<element name="C7" library="brick-capacitor-UCM1H331MNL1GS" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="47uF" x="33.655" y="41.275" smashed="yes" rot="R270">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="5.715" y="4.445" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="35.941" y="41.021" size="1.27" layer="25" rot="R270" align="center"/>
+<attribute name="VALUE" x="31.115" y="41.275" size="1.27" layer="27" rot="R270" align="center"/>
 </element>
 <element name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.47uF" x="24.13" y="43.434" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.892" y="43.434" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -974,11 +988,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.908" y="15.875" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
 <attribute name="PROD_ID" value=" " x="77.47" y="38.735" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="27.432" y="15.875" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
-</element>
-<element name="RSEN" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="0.01" x="38.735" y="50.8" smashed="yes">
-<attribute name="NAME" x="38.735" y="51.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value=" " x="65.405" y="0" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.735" y="50.038" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="RT" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="77.7k" x="12.192" y="45.339" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.43" y="45.339" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
@@ -1062,6 +1071,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.735" y="3.937" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-09696" x="40.005" y="2.54" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="38.735" y="0.508" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="RSEN" library="INA4181A4" package="CSS2H-2512" value="0.01" x="42.545" y="50.165" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.925" y="47.625" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="47.625" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
@@ -1265,7 +1278,6 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="8"/>
 <contactref element="RT" pad="2"/>
 <contactref element="RADJ" pad="2"/>
-<contactref element="RSEN" pad="1"/>
 <contactref element="C7" pad="+"/>
 <contactref element="C8" pad="1"/>
 <contactref element="C9" pad="2"/>
@@ -1291,6 +1303,7 @@ design rules under a new name.</description>
 </polygon>
 <wire x1="20.275" y1="42.59" x2="20.275" y2="51.39" width="0.508" layer="1"/>
 <wire x1="20.275" y1="51.39" x2="20.32" y2="51.435" width="0.508" layer="1"/>
+<contactref element="RSEN" pad="2"/>
 </signal>
 <signal name="N$3">
 <contactref element="U$3" pad="7"/>
@@ -1377,29 +1390,24 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="36.195" x2="15.66" y2="36.195" width="0.254" layer="1"/>
 <wire x1="15.66" y1="36.195" x2="18.835" y2="33.02" width="0.254" layer="1"/>
 </signal>
-<signal name="N$1">
+<signal name="ISEN">
 <contactref element="U$3" pad="5"/>
-<contactref element="JP1" pad="2"/>
 <contactref element="JP2" pad="1"/>
-<wire x1="20.329425" y1="38.1" x2="20.328284375" y2="38.103075" width="0.254" layer="1"/>
-<wire x1="20.328284375" y1="38.103075" x2="20.32" y2="38.1254" width="0.254" layer="1"/>
-<wire x1="20.32" y1="38.1254" x2="20.3454" y2="38.1" width="0.254" layer="1"/>
 <wire x1="20.275" y1="40.64" x2="20.32" y2="40.595" width="0.254" layer="1"/>
 <wire x1="20.32" y1="40.595" x2="20.32" y2="38.1254" width="0.254" layer="1"/>
 <wire x1="21.2286" y1="40.595" x2="20.32" y2="40.595" width="0.254" layer="1"/>
 <wire x1="23.7236" y1="39.37" x2="22.4536" y2="39.37" width="0.254" layer="1"/>
 <wire x1="22.4536" y1="39.37" x2="21.2286" y2="40.595" width="0.254" layer="1"/>
+<contactref element="JP1" pad="2"/>
+<wire x1="20.32" y1="38.1254" x2="20.275" y2="40.64" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$14">
 <contactref element="JP2" pad="2"/>
-<contactref element="RSEN" pad="2"/>
 <contactref element="Q1" pad="1"/>
 <contactref element="Q1" pad="2"/>
 <contactref element="Q1" pad="3"/>
 <wire x1="42.285" y1="42.545" x2="42.285" y2="41.275" width="0.762" layer="1"/>
 <wire x1="42.285" y1="41.275" x2="42.285" y2="40.005" width="0.762" layer="1"/>
-<wire x1="42.285" y1="42.545" x2="42.285" y2="48.1" width="0.762" layer="1"/>
-<wire x1="42.285" y1="48.1" x2="39.585" y2="50.8" width="0.762" layer="1"/>
 <wire x1="24.5364" y1="39.37" x2="30.48" y2="39.37" width="0.254" layer="1"/>
 <wire x1="30.48" y1="39.37" x2="31.75" y2="40.64" width="0.254" layer="1"/>
 <wire x1="31.75" y1="40.64" x2="36.195" y2="40.64" width="0.254" layer="1"/>
@@ -1408,6 +1416,9 @@ design rules under a new name.</description>
 <wire x1="37.465" y1="39.37" x2="39.37" y2="41.275" width="0.254" layer="16"/>
 <via x="39.37" y="41.275" extent="1-16" drill="0.35"/>
 <wire x1="39.37" y1="41.275" x2="42.285" y2="41.275" width="0.254" layer="1"/>
+<contactref element="RSEN" pad="1"/>
+<wire x1="42.285" y1="49.905" x2="42.545" y2="50.165" width="0.762" layer="1"/>
+<wire x1="42.285" y1="42.545" x2="42.285" y2="49.905" width="0.762" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
