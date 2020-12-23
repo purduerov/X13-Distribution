@@ -2806,11 +2806,11 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1M">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1"/>
 <part name="Q6" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-2N7002PW" package3d_urn="urn:adsk.eagle:package:38456/1" value="SSM3K341R"/>
 <part name="D7" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="15V"/>
-<part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1M">
+<part name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1M">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
 <part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
@@ -2821,7 +2821,10 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <plain>
 <text x="147.32" y="172.72" size="2.54" layer="91">TURN OFF/ON CIRCUIT</text>
 <text x="60.96" y="172.72" size="2.54" layer="91">REVERSE VOLTAGE PROTECTION</text>
-<text x="129.54" y="119.38" size="1.778" layer="91">OR CONTROLLERS</text>
+<text x="129.54" y="119.38" size="1.778" layer="91">OR MOSFET CONTROLLERS</text>
+<text x="208.28" y="91.44" size="2.54" layer="91">OR MOSFET INDICATOR LEDS</text>
+<text x="214.63" y="173.99" size="2.54" layer="91">BACKPLANE CONNECTORS</text>
+<text x="35.56" y="114.3" size="2.54" layer="91">BRICK CONNECTORS</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -2857,17 +2860,17 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <attribute name="NAME" x="146.558" y="151.13" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="150.622" y="151.13" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R4" gate="G$1" x="241.3" y="110.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="239.776" y="110.49" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="242.824" y="110.49" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="234.95" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="233.426" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="236.474" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R6" gate="G$1" x="251.46" y="110.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="249.936" y="110.49" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="252.984" y="110.49" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R6" gate="G$1" x="245.11" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="243.586" y="132.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="246.634" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R7" gate="G$1" x="256.54" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="255.016" y="104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="258.064" y="104.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R7" gate="G$1" x="250.19" y="125.73" smashed="yes" rot="R90">
+<attribute name="NAME" x="248.666" y="125.73" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="251.714" y="125.73" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="48V_POE" gate="A" x="15.24" y="137.16" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.9644" y="143.7386" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
@@ -2914,15 +2917,15 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <instance part="5V_POE" gate="A" x="15.24" y="121.92" smashed="yes" rot="MR0">
 <attribute name="NAME" x="19.9644" y="128.4986" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
 </instance>
-<instance part="BACKPLANE_LOGIC" gate="G$1" x="226.06" y="87.63" smashed="yes">
-<attribute name="NAME" x="219.71" y="96.52" size="1.778" layer="95"/>
+<instance part="BACKPLANE_LOGIC" gate="G$1" x="219.71" y="109.22" smashed="yes">
+<attribute name="NAME" x="213.36" y="118.11" size="1.778" layer="95"/>
 </instance>
-<instance part="R5" gate="G$1" x="246.38" y="104.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="244.856" y="104.14" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="247.904" y="104.14" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="240.03" y="125.73" smashed="yes" rot="R90">
+<attribute name="NAME" x="238.506" y="125.73" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="241.554" y="125.73" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="BACKPLANE_PWR" gate="G$1" x="256.54" y="134.62" smashed="yes" rot="R180">
-<attribute name="NAME" x="259.08" y="121.412" size="1.778" layer="95" font="vector" rot="R180"/>
+<instance part="BACKPLANE_PWR" gate="G$1" x="250.19" y="156.21" smashed="yes" rot="R180">
+<attribute name="NAME" x="252.73" y="143.002" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="H1" gate="G$1" x="5.08" y="5.08" smashed="yes">
 <attribute name="NAME" x="5.08" y="7.62" size="1.016" layer="95" align="bottom-center"/>
@@ -2949,45 +2952,45 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <instance part="BRICK_B" gate="G$1" x="38.1" y="63.5" smashed="yes">
 <attribute name="NAME" x="38.608" y="72.136" size="1.778" layer="95"/>
 </instance>
-<instance part="Q5" gate="NMOS" x="201.93" y="45.72" smashed="yes">
-<attribute name="NAME" x="200.66" y="49.53" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="195.58" y="40.64" size="1.778" layer="96" font="vector"/>
+<instance part="Q5" gate="NMOS" x="214.63" y="53.34" smashed="yes">
+<attribute name="NAME" x="213.36" y="57.15" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="208.28" y="48.26" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D5" gate="G$1" x="193.04" y="48.26" smashed="yes" rot="MR90">
-<attribute name="NAME" x="195.072" y="45.72" size="1.778" layer="95" font="vector" rot="MR90"/>
-<attribute name="VALUE" x="191.008" y="45.72" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
+<instance part="D5" gate="G$1" x="205.74" y="55.88" smashed="yes" rot="MR90">
+<attribute name="NAME" x="207.772" y="53.34" size="1.778" layer="95" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="203.708" y="53.34" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
 </instance>
-<instance part="R8" gate="G$1" x="193.04" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="191.516" y="35.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="194.564" y="35.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R8" gate="G$1" x="205.74" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.216" y="43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="207.264" y="43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R10" gate="G$1" x="204.47" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="205.994" y="58.42" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="202.946" y="58.42" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R9" gate="G$1" x="217.17" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="218.694" y="66.04" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="215.646" y="66.04" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="D6" gate="G$1" x="204.47" y="71.12" smashed="yes">
-<attribute name="NAME" x="201.041" y="66.548" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="206.375" y="66.548" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D6" gate="G$1" x="217.17" y="78.74" smashed="yes">
+<attribute name="NAME" x="213.741" y="74.168" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="219.075" y="74.168" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="Q6" gate="NMOS" x="241.3" y="45.72" smashed="yes">
-<attribute name="NAME" x="240.03" y="49.53" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="234.95" y="40.64" size="1.778" layer="96" font="vector"/>
+<instance part="Q6" gate="NMOS" x="254" y="53.34" smashed="yes">
+<attribute name="NAME" x="252.73" y="57.15" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="247.65" y="48.26" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D7" gate="G$1" x="232.41" y="48.26" smashed="yes" rot="MR90">
-<attribute name="NAME" x="234.442" y="45.72" size="1.778" layer="95" font="vector" rot="MR90"/>
-<attribute name="VALUE" x="230.378" y="45.72" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
+<instance part="D7" gate="G$1" x="245.11" y="55.88" smashed="yes" rot="MR90">
+<attribute name="NAME" x="247.142" y="53.34" size="1.778" layer="95" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="243.078" y="53.34" size="1.778" layer="96" font="vector" rot="MR90" align="top-left"/>
 </instance>
-<instance part="R9" gate="G$1" x="232.41" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="230.886" y="35.56" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="233.934" y="35.56" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R10" gate="G$1" x="245.11" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="243.586" y="43.18" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="246.634" y="43.18" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R11" gate="G$1" x="243.84" y="58.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="245.364" y="58.42" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
-<attribute name="VALUE" x="242.316" y="58.42" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+<instance part="R11" gate="G$1" x="256.54" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="258.064" y="66.04" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="255.016" y="66.04" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
-<instance part="D8" gate="G$1" x="243.84" y="71.12" smashed="yes">
-<attribute name="NAME" x="240.411" y="66.548" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="245.745" y="66.548" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D8" gate="G$1" x="256.54" y="78.74" smashed="yes">
+<attribute name="NAME" x="253.111" y="74.168" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="258.445" y="74.168" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -3016,33 +3019,33 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="1"/>
-<wire x1="248.92" y1="147.32" x2="242.57" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="147.32" x2="242.57" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="168.91" x2="236.22" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="168.91" x2="236.22" y2="166.37" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="2"/>
-<wire x1="242.57" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="144.78" x2="242.57" y2="142.24" width="0.1524" layer="91"/>
-<junction x="242.57" y="144.78"/>
+<wire x1="236.22" y1="166.37" x2="242.57" y2="166.37" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="166.37" x2="236.22" y2="163.83" width="0.1524" layer="91"/>
+<junction x="236.22" y="166.37"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="3"/>
-<wire x1="242.57" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="163.83" x2="242.57" y2="163.83" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="4"/>
-<wire x1="242.57" y1="142.24" x2="242.57" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="139.7" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
-<junction x="242.57" y="142.24"/>
+<wire x1="236.22" y1="163.83" x2="236.22" y2="161.29" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="161.29" x2="242.57" y2="161.29" width="0.1524" layer="91"/>
+<junction x="236.22" y="163.83"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="5"/>
-<wire x1="242.57" y1="139.7" x2="242.57" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
-<junction x="242.57" y="139.7"/>
-<label x="242.57" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="161.29" x2="236.22" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="158.75" x2="242.57" y2="158.75" width="0.1524" layer="91"/>
+<junction x="236.22" y="161.29"/>
+<label x="236.22" y="163.83" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="204.47" y1="73.66" x2="204.47" y2="76.2" width="0.1524" layer="91"/>
-<label x="204.47" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="217.17" y1="81.28" x2="217.17" y2="83.82" width="0.1524" layer="91"/>
+<label x="217.17" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="243.84" y1="73.66" x2="243.84" y2="76.2" width="0.1524" layer="91"/>
-<label x="243.84" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="81.28" x2="256.54" y2="83.82" width="0.1524" layer="91"/>
+<label x="256.54" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+12V_A" class="0">
@@ -3213,12 +3216,12 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <net name="CLK" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="99.06" x2="256.54" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="87.63" x2="256.54" y2="87.63" width="0.1524" layer="91"/>
-<label x="259.08" y="87.63" size="0.8128" layer="95" xref="yes"/>
+<wire x1="250.19" y1="120.65" x2="250.19" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="252.73" y1="109.22" x2="250.19" y2="109.22" width="0.1524" layer="91"/>
+<label x="252.73" y="109.22" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="9"/>
-<wire x1="256.54" y1="87.63" x2="237.49" y2="87.63" width="0.1524" layer="91"/>
-<junction x="256.54" y="87.63"/>
+<wire x1="250.19" y1="109.22" x2="231.14" y2="109.22" width="0.1524" layer="91"/>
+<junction x="250.19" y="109.22"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="86.36" x2="72.39" y2="86.36" width="0.1524" layer="91"/>
@@ -3234,12 +3237,12 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <net name="DATA" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="95.25" x2="241.3" y2="95.25" width="0.1524" layer="91"/>
-<label x="259.08" y="95.25" size="0.8128" layer="95" xref="yes"/>
+<wire x1="252.73" y1="116.84" x2="234.95" y2="116.84" width="0.1524" layer="91"/>
+<label x="252.73" y="116.84" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="12"/>
-<wire x1="241.3" y1="95.25" x2="237.49" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="105.41" x2="241.3" y2="95.25" width="0.1524" layer="91"/>
-<junction x="241.3" y="95.25"/>
+<wire x1="234.95" y1="116.84" x2="231.14" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="234.95" y1="127" x2="234.95" y2="116.84" width="0.1524" layer="91"/>
+<junction x="234.95" y="116.84"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="96.52" x2="72.39" y2="96.52" width="0.1524" layer="91"/>
@@ -3254,16 +3257,16 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="210.82" y1="95.25" x2="214.63" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="95.25" x2="210.82" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="92.71" x2="210.82" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="90.17" x2="214.63" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="92.71" x2="214.63" y2="92.71" width="0.1524" layer="91"/>
-<junction x="210.82" y="92.71"/>
+<wire x1="204.47" y1="116.84" x2="208.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="116.84" x2="204.47" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="114.3" x2="204.47" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="91"/>
+<junction x="204.47" y="114.3"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="1"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="2"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="3"/>
-<label x="210.82" y="92.71" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="204.47" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="5V_POE" gate="A" pin="1"/>
@@ -3284,23 +3287,23 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="6"/>
-<wire x1="248.92" y1="134.62" x2="242.57" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="242.57" y1="156.21" x2="236.22" y2="156.21" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="7"/>
-<wire x1="242.57" y1="134.62" x2="242.57" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="156.21" x2="236.22" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="153.67" x2="242.57" y2="153.67" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="8"/>
-<wire x1="248.92" y1="129.54" x2="242.57" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="129.54" x2="242.57" y2="132.08" width="0.1524" layer="91"/>
-<junction x="242.57" y="132.08"/>
-<wire x1="242.57" y1="129.54" x2="242.57" y2="127" width="0.1524" layer="91"/>
-<junction x="242.57" y="129.54"/>
+<wire x1="242.57" y1="151.13" x2="236.22" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="151.13" x2="236.22" y2="153.67" width="0.1524" layer="91"/>
+<junction x="236.22" y="153.67"/>
+<wire x1="236.22" y1="151.13" x2="236.22" y2="148.59" width="0.1524" layer="91"/>
+<junction x="236.22" y="151.13"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="9"/>
-<wire x1="242.57" y1="127" x2="248.92" y2="127" width="0.1524" layer="91"/>
-<wire x1="242.57" y1="127" x2="242.57" y2="124.46" width="0.1524" layer="91"/>
-<junction x="242.57" y="127"/>
+<wire x1="236.22" y1="148.59" x2="242.57" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="148.59" x2="236.22" y2="146.05" width="0.1524" layer="91"/>
+<junction x="236.22" y="148.59"/>
 <pinref part="BACKPLANE_PWR" gate="G$1" pin="10"/>
-<wire x1="242.57" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
-<label x="242.57" y="129.54" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="236.22" y1="146.05" x2="242.57" y2="146.05" width="0.1524" layer="91"/>
+<label x="236.22" y="151.13" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="101.6" x2="72.39" y2="101.6" width="0.1524" layer="91"/>
@@ -3314,40 +3317,40 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="30.48" x2="193.04" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="38.1" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="NMOS" pin="S"/>
-<wire x1="193.04" y1="27.94" x2="204.47" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="204.47" y1="27.94" x2="204.47" y2="40.64" width="0.1524" layer="91"/>
-<label x="193.04" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.74" y1="35.56" x2="217.17" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="217.17" y1="35.56" x2="217.17" y2="48.26" width="0.1524" layer="91"/>
+<label x="205.74" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="232.41" y1="30.48" x2="232.41" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="245.11" y1="38.1" x2="245.11" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="NMOS" pin="S"/>
-<wire x1="232.41" y1="27.94" x2="243.84" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="27.94" x2="243.84" y2="40.64" width="0.1524" layer="91"/>
-<label x="232.41" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="245.11" y1="35.56" x2="256.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="35.56" x2="256.54" y2="48.26" width="0.1524" layer="91"/>
+<label x="245.11" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
 <segment>
-<wire x1="210.82" y1="87.63" x2="214.63" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="4"/>
-<label x="210.82" y="87.63" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="204.47" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="241.3" y1="115.57" x2="246.38" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="115.57" x2="251.46" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="115.57" x2="256.54" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="109.22" x2="246.38" y2="115.57" width="0.1524" layer="91"/>
-<junction x="246.38" y="115.57"/>
-<wire x1="256.54" y1="109.22" x2="256.54" y2="115.57" width="0.1524" layer="91"/>
-<junction x="251.46" y="115.57"/>
-<label x="241.3" y="115.57" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="234.95" y1="137.16" x2="240.03" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="137.16" x2="245.11" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="137.16" x2="250.19" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="130.81" x2="240.03" y2="137.16" width="0.1524" layer="91"/>
+<junction x="240.03" y="137.16"/>
+<wire x1="250.19" y1="130.81" x2="250.19" y2="137.16" width="0.1524" layer="91"/>
+<junction x="245.11" y="137.16"/>
+<label x="234.95" y="137.16" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="19.05" x2="69.85" y2="19.05" width="0.1524" layer="91"/>
@@ -3377,8 +3380,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="C2_2" class="0">
 <segment>
-<wire x1="240.03" y1="82.55" x2="237.49" y2="82.55" width="0.1524" layer="91"/>
-<label x="240.03" y="82.55" size="0.8128" layer="95" xref="yes"/>
+<wire x1="233.68" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
+<label x="233.68" y="104.14" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="7"/>
 </segment>
 <segment>
@@ -3389,8 +3392,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="C2_1" class="0">
 <segment>
-<wire x1="240.03" y1="85.09" x2="237.49" y2="85.09" width="0.1524" layer="91"/>
-<label x="240.03" y="85.09" size="0.8128" layer="95" xref="yes"/>
+<wire x1="233.68" y1="106.68" x2="231.14" y2="106.68" width="0.1524" layer="91"/>
+<label x="233.68" y="106.68" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="8"/>
 </segment>
 <segment>
@@ -3461,8 +3464,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="193.04" y1="50.8" x2="193.04" y2="53.34" width="0.1524" layer="91"/>
-<label x="193.04" y="53.34" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.74" y1="58.42" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
+<label x="205.74" y="60.96" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OR_DRIVE_B" class="0">
@@ -3481,19 +3484,19 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </segment>
 <segment>
 <pinref part="D7" gate="G$1" pin="C"/>
-<wire x1="232.41" y1="50.8" x2="232.41" y2="53.34" width="0.1524" layer="91"/>
-<label x="232.41" y="53.34" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="245.11" y1="58.42" x2="245.11" y2="60.96" width="0.1524" layer="91"/>
+<label x="245.11" y="60.96" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ALERT_2" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="105.41" x2="251.46" y2="90.17" width="0.1524" layer="91"/>
-<wire x1="237.49" y1="90.17" x2="251.46" y2="90.17" width="0.1524" layer="91"/>
-<label x="259.08" y="90.17" size="0.8128" layer="95" xref="yes"/>
+<wire x1="245.11" y1="127" x2="245.11" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="111.76" x2="245.11" y2="111.76" width="0.1524" layer="91"/>
+<label x="252.73" y="111.76" size="0.8128" layer="95" xref="yes"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="10"/>
-<wire x1="251.46" y1="90.17" x2="259.08" y2="90.17" width="0.1524" layer="91"/>
-<junction x="251.46" y="90.17"/>
+<wire x1="245.11" y1="111.76" x2="252.73" y2="111.76" width="0.1524" layer="91"/>
+<junction x="245.11" y="111.76"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="53.34" x2="72.39" y2="53.34" width="0.1524" layer="91"/>
@@ -3503,13 +3506,13 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </net>
 <net name="ALERT_1" class="0">
 <segment>
-<wire x1="246.38" y1="92.71" x2="237.49" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="11"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="92.71" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="246.38" y1="92.71" x2="259.08" y2="92.71" width="0.1524" layer="91"/>
-<junction x="246.38" y="92.71"/>
-<label x="259.08" y="92.71" size="0.8128" layer="95" xref="yes"/>
+<wire x1="240.03" y1="114.3" x2="240.03" y2="120.65" width="0.1524" layer="91"/>
+<wire x1="240.03" y1="114.3" x2="252.73" y2="114.3" width="0.1524" layer="91"/>
+<junction x="240.03" y="114.3"/>
+<label x="252.73" y="114.3" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
 <wire x1="68.58" y1="91.44" x2="72.39" y2="91.44" width="0.1524" layer="91"/>
@@ -3524,12 +3527,12 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <label x="27.94" y="120.65" size="0.8128" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="214.63" y1="85.09" x2="210.82" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="85.09" x2="210.82" y2="82.55" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="82.55" x2="214.63" y2="82.55" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="106.68" x2="204.47" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="106.68" x2="204.47" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="204.47" y1="104.14" x2="208.28" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="5"/>
 <pinref part="BACKPLANE_LOGIC" gate="G$1" pin="6"/>
-<label x="210.82" y="83.82" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="204.47" y="105.41" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="13.97" x2="69.85" y2="13.97" width="0.1524" layer="91"/>
@@ -3541,52 +3544,52 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="193.04" y1="40.64" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="48.26" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="Q5" gate="NMOS" pin="G"/>
-<wire x1="193.04" y1="43.18" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="196.85" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
-<junction x="193.04" y="43.18"/>
-<label x="193.04" y="43.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.74" y1="50.8" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="209.55" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<junction x="205.74" y="50.8"/>
+<label x="205.74" y="50.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="Q5" gate="NMOS" pin="D"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="204.47" y1="50.8" x2="204.47" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="217.17" y1="58.42" x2="217.17" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 <pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="204.47" y1="63.5" x2="204.47" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="217.17" y1="71.12" x2="217.17" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_DRIVE_B" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="D7" gate="G$1" pin="A"/>
-<wire x1="232.41" y1="40.64" x2="232.41" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="245.11" y1="48.26" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="Q6" gate="NMOS" pin="G"/>
-<wire x1="232.41" y1="43.18" x2="232.41" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="43.18" x2="232.41" y2="43.18" width="0.1524" layer="91"/>
-<junction x="232.41" y="43.18"/>
-<label x="232.41" y="43.18" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="245.11" y1="50.8" x2="245.11" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="50.8" x2="245.11" y2="50.8" width="0.1524" layer="91"/>
+<junction x="245.11" y="50.8"/>
+<label x="245.11" y="50.8" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="Q6" gate="NMOS" pin="D"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="243.84" y1="50.8" x2="243.84" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="58.42" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="D8" gate="G$1" pin="C"/>
-<wire x1="243.84" y1="63.5" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="71.12" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
