@@ -1160,13 +1160,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="104.14" y="58.42" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="PROD_ID" value="TRANS-11151" x="104.14" y="59.69" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="TETHER" library="Dist_To_Tether_Connector" package="CON6_P5MM_VER_TERM-BLK_TYC" value="48V" x="41.91" y="67.31" smashed="yes">
-<attribute name="BUILT_BY" value="EMA_UL_Team" x="41.91" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="796636-6" x="41.91" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.3954" y="69.85" size="1.27" layer="25" ratio="6" rot="SR0"/>
-<attribute name="SOURCELIBRARY" value="Tyco_2012-04-26" x="41.91" y="67.31" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="39.6748" y="64.135" size="1.27" layer="21" ratio="6" rot="SR0"/>
-<attribute name="VENDOR" value="TE Connectivity" x="41.91" y="67.31" size="1.778" layer="27" display="off"/>
+<element name="TETHER" library="Dist_To_Tether_Connector" package="CON6_P5MM_VER_TERM-BLK_TYC" value="48V" x="26.67" y="64.77" smashed="yes">
+<attribute name="BUILT_BY" value="EMA_UL_Team" x="26.67" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="796636-6" x="26.67" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="24.1554" y="67.31" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="SOURCELIBRARY" value="Tyco_2012-04-26" x="26.67" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="24.4348" y="61.595" size="1.27" layer="21" ratio="6" rot="SR0"/>
+<attribute name="VENDOR" value="TE Connectivity" x="26.67" y="64.77" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="2.2uF" x="35.56" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="35.56" y="42.418" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
@@ -1178,17 +1178,17 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-08390" x="116.84" y="35.56" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="116.84" y="36.322" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="C3" library="brick-capacitor-UCM1H331MNL1GS" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="99.06" y="43.18" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="10.5mm" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Nichicon" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="99.06" y="43.18" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="98.806" y="40.894" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="99.06" y="45.72" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="C3" library="brick-capacitor-UCM1H331MNL1GS" package="CAPAE1030X1050N" package3d_urn="urn:adsk.eagle:package:24202090/2" value="330uF" x="76.2" y="16.51" smashed="yes" rot="R90">
+<attribute name="ARROW_PART_NUMBER" value="UCM1H331MNL1GS" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/ucm1h331mnl1gs/nichicon" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Nichicon 330uF 50 V Aluminium Electrolytic Capacitor SMD, CM Series 2000h 10 (Dia.) x 10mm" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="10.5mm" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Nichicon" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UCM1H331MNL1GS" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="647-UCM1H331MNL1GS" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nichicon/UCM1H331MNL1GS?qs=DSgADHjnLTkTovFLdbC%252BNg%3D%3D" x="76.2" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="73.914" y="16.764" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="VALUE" x="78.74" y="16.51" size="1.27" layer="27" rot="R90" align="center"/>
 </element>
 <element name="5V_POE" library="Dist_POE" package="CONN2_282834-2_TEC" value="POE_TERMINAL" x="127" y="10.16" smashed="yes" rot="R180">
 <attribute name="BUILT_BY" value="EMA_UL_Team" x="127" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1304,8 +1304,8 @@ design rules under a new name.</description>
 <vertex x="118.11" y="31.75"/>
 <vertex x="115.57" y="34.29"/>
 <vertex x="97.79" y="34.29"/>
-<vertex x="82.55" y="19.05"/>
-<vertex x="64.77" y="19.05"/>
+<vertex x="81.28" y="17.78"/>
+<vertex x="66.04" y="17.78"/>
 <vertex x="49.53" y="34.29"/>
 <vertex x="35.56" y="34.29"/>
 <vertex x="34.29" y="33.02"/>
@@ -1313,10 +1313,10 @@ design rules under a new name.</description>
 <wire x1="43.18" y1="43.18" x2="41.91" y2="43.18" width="0.2032" layer="1"/>
 <wire x1="43.18" y1="43.18" x2="44.45" y2="41.91" width="0.2032" layer="1"/>
 <wire x1="110.8" y1="29.21" x2="109.22" y2="30.79" width="0.2032" layer="1"/>
-<via x="106.68" y="36.83" extent="1-16" drill="0.35"/>
-<wire x1="106.68" y1="36.83" x2="106.68" y2="38.1" width="0.2032" layer="16"/>
-<wire x1="106.68" y1="38.1" x2="110.195" y2="41.615" width="0.2032" layer="16"/>
-<wire x1="110.195" y1="41.615" x2="113.244996875" y2="41.615" width="0.2032" layer="16"/>
+<via x="102.87" y="33.02" extent="1-16" drill="0.35"/>
+<wire x1="102.87" y1="33.02" x2="102.87" y2="36.83" width="0.2032" layer="16"/>
+<wire x1="102.87" y1="36.83" x2="107.655" y2="41.615" width="0.2032" layer="16"/>
+<wire x1="107.655" y1="41.615" x2="113.244996875" y2="41.615" width="0.2032" layer="16"/>
 <via x="55.88" y="20.32" extent="1-16" drill="1"/>
 <contactref element="BACKPLANE_PWR" pad="1@4"/>
 <contactref element="BACKPLANE_PWR" pad="1@6"/>
@@ -1348,16 +1348,6 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_PWR" pad="5@5"/>
 <contactref element="BACKPLANE_PWR" pad="5@1"/>
 <contactref element="BACKPLANE_PWR" pad="5@6"/>
-<polygon width="0.2032" layer="1" thermals="no">
-<vertex x="100.33" y="34.29"/>
-<vertex x="100.33" y="44.45"/>
-<vertex x="101.6" y="45.72"/>
-<vertex x="106.68" y="45.72"/>
-<vertex x="107.95" y="44.45"/>
-<vertex x="107.95" y="34.29"/>
-<vertex x="106.68" y="33.02"/>
-<vertex x="101.6" y="33.02"/>
-</polygon>
 <wire x1="44.45" y1="41.91" x2="44.45" y2="30.48" width="0.2032" layer="1"/>
 <wire x1="44.45" y1="30.48" x2="43.18" y2="29.21" width="0.2032" layer="1"/>
 <contactref element="D6" pad="A"/>
@@ -1607,7 +1597,11 @@ design rules under a new name.</description>
 <vertex x="-3.81" y="57.15"/>
 <vertex x="-3.81" y="67.31"/>
 <vertex x="6.35" y="77.47"/>
-<vertex x="40.64" y="77.47"/>
+<vertex x="17.78" y="77.47"/>
+<vertex x="20.32" y="74.93"/>
+<vertex x="20.32" y="64.77"/>
+<vertex x="22.86" y="62.23"/>
+<vertex x="55.88" y="62.23"/>
 <vertex x="62.23" y="55.88"/>
 <vertex x="82.55" y="55.88"/>
 <vertex x="92.71" y="66.04"/>
@@ -1624,9 +1618,9 @@ design rules under a new name.</description>
 <vertex x="100.33" y="59.69"/>
 <vertex x="83.82" y="43.18"/>
 <vertex x="62.23" y="43.18"/>
-<vertex x="45.72" y="59.69"/>
-<vertex x="25.4" y="59.69"/>
-<vertex x="20.32" y="54.61"/>
+<vertex x="50.8" y="54.61"/>
+<vertex x="22.86" y="54.61"/>
+<vertex x="20.32" y="52.07"/>
 </polygon>
 <via x="125.73" y="66.04" extent="1-16" drill="1"/>
 <polygon width="0.2032" layer="16" thermals="no">
@@ -1733,14 +1727,6 @@ design rules under a new name.</description>
 <vertex x="129.54" y="16.51"/>
 <vertex x="129.54" y="25.4"/>
 <vertex x="128.27" y="26.67"/>
-<vertex x="105.41" y="26.67"/>
-<vertex x="100.33" y="31.75"/>
-<vertex x="100.33" y="41.91"/>
-<vertex x="96.52" y="45.72"/>
-<vertex x="91.44" y="45.72"/>
-<vertex x="87.63" y="41.91"/>
-<vertex x="87.63" y="29.21"/>
-<vertex x="85.09" y="26.67"/>
 <vertex x="68.58" y="26.67"/>
 <vertex x="66.04" y="29.21"/>
 <vertex x="66.04" y="35.56"/>
@@ -1786,20 +1772,6 @@ design rules under a new name.</description>
 <contactref element="BACKPLANE_PWR" pad="10@3"/>
 <contactref element="BACKPLANE_PWR" pad="10@1"/>
 <contactref element="BACKPLANE_PWR" pad="10@4"/>
-<polygon width="0.8128" layer="1" thermals="no">
-<vertex x="87.63" y="41.91"/>
-<vertex x="91.44" y="45.72"/>
-<vertex x="96.52" y="45.72"/>
-<vertex x="97.79" y="44.45"/>
-<vertex x="97.79" y="41.91"/>
-<vertex x="92.71" y="36.83"/>
-<vertex x="88.9" y="36.83"/>
-<vertex x="87.63" y="38.1"/>
-</polygon>
-<via x="92.71" y="40.64" extent="1-16" drill="0.35"/>
-<via x="91.44" y="39.37" extent="1-16" drill="0.35"/>
-<via x="90.17" y="40.64" extent="1-16" drill="0.35"/>
-<via x="88.9" y="39.37" extent="1-16" drill="0.35"/>
 <via x="101.6" y="16.51" extent="1-16" drill="1"/>
 <contactref element="BRICK_A" pad="4@11"/>
 <contactref element="BRICK_A" pad="4@15"/>
@@ -1867,6 +1839,20 @@ design rules under a new name.</description>
 <via x="133.35" y="24.13" extent="1-16" drill="0.35"/>
 <via x="128.27" y="24.13" extent="1-16" drill="0.35"/>
 <wire x1="133.35" y1="24.13" x2="128.27" y2="24.13" width="0.2032" layer="1"/>
+<polygon width="0.8128" layer="1">
+<vertex x="72.39" y="22.86"/>
+<vertex x="73.66" y="24.13"/>
+<vertex x="78.74" y="24.13"/>
+<vertex x="80.01" y="22.86"/>
+<vertex x="80.01" y="20.32"/>
+<vertex x="78.74" y="19.05"/>
+<vertex x="73.66" y="19.05"/>
+<vertex x="72.39" y="20.32"/>
+</polygon>
+<via x="73.66" y="22.86" extent="1-16" drill="0.35"/>
+<via x="73.66" y="20.32" extent="1-16" drill="0.35"/>
+<via x="78.74" y="20.32" extent="1-16" drill="0.35"/>
+<via x="78.74" y="22.86" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+3.3V">
 <contactref element="R6" pad="2"/>
@@ -1885,8 +1871,7 @@ design rules under a new name.</description>
 <wire x1="142.24" y1="7.62" x2="139.7" y2="5.08" width="0.8128" layer="16"/>
 <wire x1="139.7" y1="5.08" x2="132.08" y2="5.08" width="0.8128" layer="16"/>
 <wire x1="132.08" y1="5.08" x2="130.81" y2="6.35" width="0.8128" layer="16"/>
-<wire x1="130.81" y1="6.35" x2="130.81" y2="27.94" width="0.8128" layer="16"/>
-<wire x1="130.81" y1="27.94" x2="130.81" y2="44.45" width="0.8128" layer="16"/>
+<wire x1="130.81" y1="6.35" x2="130.81" y2="44.45" width="0.8128" layer="16"/>
 <wire x1="130.81" y1="44.45" x2="129.54" y2="45.72" width="0.8128" layer="16"/>
 <wire x1="95.25" y1="52.07" x2="86.36" y2="43.18" width="0.8128" layer="1"/>
 <wire x1="86.36" y1="43.18" x2="86.36" y2="34.29" width="0.8128" layer="1"/>
@@ -1898,8 +1883,10 @@ design rules under a new name.</description>
 <wire x1="67.31" y1="25.82" x2="67.31" y2="24.13" width="0.8128" layer="1"/>
 <wire x1="67.31" y1="24.13" x2="64.77" y2="24.13" width="0.8128" layer="1"/>
 <wire x1="64.77" y1="24.13" x2="60.96" y2="27.94" width="0.8128" layer="1"/>
-<wire x1="67.31" y1="24.13" x2="83.82" y2="24.13" width="0.8128" layer="1"/>
-<wire x1="83.82" y1="24.13" x2="86.36" y2="26.67" width="0.8128" layer="1"/>
+<wire x1="67.31" y1="24.13" x2="69.85" y2="24.13" width="0.8128" layer="1"/>
+<wire x1="69.85" y1="24.13" x2="71.12" y2="25.4" width="0.8128" layer="1"/>
+<wire x1="71.12" y1="25.4" x2="85.09" y2="25.4" width="0.8128" layer="1"/>
+<wire x1="85.09" y1="25.4" x2="86.36" y2="26.67" width="0.8128" layer="1"/>
 <wire x1="86.36" y1="26.67" x2="86.36" y2="29.21" width="0.8128" layer="1"/>
 <via x="44.45" y="13.97" extent="1-16" drill="0.35"/>
 <wire x1="44.45" y1="13.97" x2="52.07" y2="13.97" width="0.8128" layer="1"/>
@@ -1963,14 +1950,16 @@ design rules under a new name.</description>
 <contactref element="TETHER" pad="5"/>
 <contactref element="TETHER" pad="6"/>
 <polygon width="0.8128" layer="16">
-<vertex x="55.88" y="66.04"/>
-<vertex x="55.88" y="73.66"/>
-<vertex x="59.69" y="77.47"/>
+<vertex x="39.37" y="64.77"/>
+<vertex x="39.37" y="76.2"/>
+<vertex x="40.64" y="77.47"/>
 <vertex x="83.82" y="77.47"/>
 <vertex x="86.36" y="74.93"/>
 <vertex x="86.36" y="63.5"/>
 <vertex x="82.55" y="59.69"/>
-<vertex x="62.23" y="59.69"/>
+<vertex x="63.5" y="59.69"/>
+<vertex x="59.69" y="63.5"/>
+<vertex x="40.64" y="63.5"/>
 </polygon>
 </signal>
 <signal name="VCAPH_B">
