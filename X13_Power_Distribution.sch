@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -1080,105 +1080,6 @@ LED</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:39358/1"/>
 </package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="Reverse_Voltage_NMOS">
-<packages>
-<package name="TO263" urn="urn:adsk.eagle:footprint:28483/1" locally_modified="yes">
-<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
-TS-005</description>
-<wire x1="4.917" y1="7.165" x2="4.917" y2="-1.839" width="0.2032" layer="21"/>
-<wire x1="4.917" y1="-1.839" x2="-4.917" y2="-1.839" width="0.2032" layer="21"/>
-<wire x1="-4.917" y1="-1.839" x2="-4.917" y2="7.165" width="0.2032" layer="21"/>
-<wire x1="-4.917" y1="7.165" x2="4.917" y2="7.165" width="0.2032" layer="51"/>
-<wire x1="-5.973" y1="11.523" x2="5.973" y2="11.523" width="0.0508" layer="39"/>
-<wire x1="5.973" y1="-8.983" x2="-5.973" y2="-8.983" width="0.0508" layer="39"/>
-<wire x1="-5.973" y1="-8.983" x2="-5.973" y2="11.523" width="0.0508" layer="39"/>
-<wire x1="5.973" y1="11.523" x2="5.973" y2="-8.983" width="0.0508" layer="39"/>
-<wire x1="-2.565" y1="7.267" x2="-2.565" y2="7.678" width="0.2032" layer="51"/>
-<wire x1="-2.565" y1="7.678" x2="-2.108" y2="8.135" width="0.2032" layer="51"/>
-<wire x1="-2.108" y1="8.135" x2="2.108" y2="8.135" width="0.2032" layer="51"/>
-<wire x1="2.108" y1="8.135" x2="2.565" y2="7.678" width="0.2032" layer="51"/>
-<wire x1="2.565" y1="7.678" x2="2.565" y2="7.267" width="0.2032" layer="51"/>
-<wire x1="2.565" y1="7.267" x2="-2.565" y2="7.267" width="0.2032" layer="51"/>
-<smd name="1" x="-2.54" y="-6.6" dx="1" dy="3.4" layer="1"/>
-<smd name="2" x="2.54" y="-6.6" dx="1" dy="3.4" layer="1"/>
-<smd name="3" x="0" y="4.77" dx="6.8" dy="12.14" layer="1"/>
-<text x="-3.81" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="5.08" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.4318" y1="-2.6426" x2="0.4318" y2="-1.8806" layer="21"/>
-<rectangle x1="-2.9901" y1="-4.7399" x2="-2.0899" y2="-1.9401" layer="21"/>
-<rectangle x1="2.0899" y1="-4.7399" x2="2.9901" y2="-1.9401" layer="21"/>
-<rectangle x1="-3" y1="-7.5001" x2="-2.1001" y2="-4.7" layer="51"/>
-<rectangle x1="2.1001" y1="-7.5001" x2="3" y2="-4.7" layer="51"/>
-<polygon width="0.2032" layer="51">
-<vertex x="-2.5654" y="7.2669"/>
-<vertex x="-2.5654" y="7.6782"/>
-<vertex x="-2.1082" y="8.1354"/>
-<vertex x="2.1082" y="8.1354"/>
-<vertex x="2.5654" y="7.6782"/>
-<vertex x="2.5654" y="7.2669"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="LABELED-NMOS">
-<description>&lt;h3&gt; N-channel MOSFET transistor&lt;/h3&gt;
-Switches electronic signals</description>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-0.7112" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5588" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.5588" x2="3.302" y2="0.5588" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0.5588" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.5588" x2="3.4798" y2="0.7366" width="0.1524" layer="94"/>
-<wire x1="1.6002" y1="0.381" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
-<polygon width="0.1524" layer="94">
-<vertex x="1.778" y="-0.7112"/>
-<vertex x="2.54" y="0.5588"/>
-<vertex x="3.302" y="-0.7112"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.9812" y="0"/>
-<vertex x="-1.2192" y="0.254"/>
-<vertex x="-1.2192" y="-0.254"/>
-</polygon>
-<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="IRF1018EPBF">
-<gates>
-<gate name="G$1" symbol="LABELED-NMOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO263">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3477,6 +3378,136 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Dist_Reverse_Voltage_NMOS">
+<packages>
+<package name="TO263" urn="urn:adsk.eagle:footprint:28483/1" locally_modified="yes">
+<description>&lt;b&gt;SMALL OUTLINE TRANSISTOR&lt;/b&gt;&lt;p&gt;
+TS-005</description>
+<wire x1="7.213" y1="-4.917" x2="-1.791" y2="-4.917" width="0.2032" layer="21"/>
+<wire x1="-1.791" y1="-4.917" x2="-1.791" y2="4.917" width="0.2032" layer="21"/>
+<wire x1="-1.791" y1="4.917" x2="7.213" y2="4.917" width="0.2032" layer="21"/>
+<wire x1="7.213" y1="4.917" x2="7.213" y2="-4.917" width="0.2032" layer="51"/>
+<wire x1="11.571" y1="5.973" x2="11.571" y2="-5.973" width="0.0508" layer="39"/>
+<wire x1="-8.935" y1="-5.973" x2="-8.935" y2="5.973" width="0.0508" layer="39"/>
+<wire x1="-8.935" y1="5.973" x2="11.571" y2="5.973" width="0.0508" layer="39"/>
+<wire x1="11.571" y1="-5.973" x2="-8.935" y2="-5.973" width="0.0508" layer="39"/>
+<wire x1="7.315" y1="2.565" x2="7.726" y2="2.565" width="0.2032" layer="51"/>
+<wire x1="7.726" y1="2.565" x2="8.183" y2="2.108" width="0.2032" layer="51"/>
+<wire x1="8.183" y1="2.108" x2="8.183" y2="-2.108" width="0.2032" layer="51"/>
+<wire x1="8.183" y1="-2.108" x2="7.726" y2="-2.565" width="0.2032" layer="51"/>
+<wire x1="7.726" y1="-2.565" x2="7.315" y2="-2.565" width="0.2032" layer="51"/>
+<wire x1="7.315" y1="-2.565" x2="7.315" y2="2.565" width="0.2032" layer="51"/>
+<smd name="1" x="-6.552" y="2.54" dx="1" dy="3.4" layer="1" rot="R270"/>
+<smd name="2" x="-6.552" y="-2.54" dx="1" dy="3.4" layer="1" rot="R270"/>
+<smd name="3" x="4.818" y="0" dx="6.8" dy="12.14" layer="1" rot="R270"/>
+<text x="-7.572" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.572" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.6454" y1="-0.381" x2="-1.7818" y2="0.381" layer="21" rot="R270"/>
+<rectangle x1="-3.7421" y1="1.1401" x2="-2.8419" y2="3.9399" layer="21" rot="R270"/>
+<rectangle x1="-3.7421" y1="-3.9399" x2="-2.8419" y2="-1.1401" layer="21" rot="R270"/>
+<rectangle x1="-6.502" y1="1.15" x2="-5.6021" y2="3.9501" layer="51" rot="R270"/>
+<rectangle x1="-6.502" y1="-3.9501" x2="-5.6021" y2="-1.15" layer="51" rot="R270"/>
+<polygon width="0.2032" layer="51">
+<vertex x="7.3149" y="2.5654"/>
+<vertex x="7.7262" y="2.5654"/>
+<vertex x="8.1834" y="2.1082"/>
+<vertex x="8.1834" y="-2.1082"/>
+<vertex x="7.7262" y="-2.5654"/>
+<vertex x="7.3149" y="-2.5654"/>
+</polygon>
+</package>
+<package name="TO254P1524X483-3N" urn="urn:adsk.eagle:footprint:25915124/1">
+<description>3-TO, DPAK, 2.54 mm pitch, 15.24 mm span, 10.16 X 9.02 X 4.83 mm body
+&lt;p&gt;3-pin TO, DPAK package with 2.54 mm pitch, 15.24 mm span with body size 10.16 X 9.02 X 4.83 mm&lt;/p&gt;</description>
+<circle x="-6.5602" y="3.5754" radius="0.25" width="0" layer="21"/>
+<wire x1="6.1375" y1="5.6221" x2="6.1375" y2="5.335" width="0.12" layer="21"/>
+<wire x1="6.1375" y1="5.335" x2="-3.5125" y2="5.335" width="0.12" layer="21"/>
+<wire x1="-3.5125" y1="5.335" x2="-3.5125" y2="-5.335" width="0.12" layer="21"/>
+<wire x1="-3.5125" y1="-5.335" x2="6.1375" y2="-5.335" width="0.12" layer="21"/>
+<wire x1="6.1375" y1="-5.335" x2="6.1375" y2="-5.6221" width="0.12" layer="21"/>
+<wire x1="6.1375" y1="-5.335" x2="-3.5125" y2="-5.335" width="0.12" layer="51"/>
+<wire x1="-3.5125" y1="-5.335" x2="-3.5125" y2="5.335" width="0.12" layer="51"/>
+<wire x1="-3.5125" y1="5.335" x2="6.1375" y2="5.335" width="0.12" layer="51"/>
+<wire x1="6.1375" y1="5.335" x2="6.1375" y2="-5.335" width="0.12" layer="51"/>
+<smd name="1" x="-6.5602" y="2.54" dx="3.4644" dy="1.0628" layer="1"/>
+<smd name="2" x="-6.5602" y="-2.54" dx="3.4644" dy="1.0628" layer="1"/>
+<smd name="3" x="4.3423" y="0" dx="7.9002" dy="10.7361" layer="1"/>
+<text x="0" y="6.2571" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-6.2571" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="TO254P1524X483-3N" urn="urn:adsk.eagle:package:25914649/1" type="model">
+<description>3-TO, DPAK, 2.54 mm pitch, 15.24 mm span, 10.16 X 9.02 X 4.83 mm body
+&lt;p&gt;3-pin TO, DPAK package with 2.54 mm pitch, 15.24 mm span with body size 10.16 X 9.02 X 4.83 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TO254P1524X483-3N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="LABELED-NMOS">
+<description>&lt;h3&gt; N-channel MOSFET transistor&lt;/h3&gt;
+Switches electronic signals</description>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" rot="R90"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" rot="R270"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="0.6858" x2="-1.9812" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.2954" x2="-1.9812" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="-1.9812" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="2.54" x2="-1.9812" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="-1.9812" y2="1.0922" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="0" x2="-1.2192" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-0.7112" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="-1.9812" y1="1.8034" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.8034" x2="2.54" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.5588" x2="3.302" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0.5588" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.8034" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.5588" x2="3.4798" y2="0.7366" width="0.1524" layer="94"/>
+<wire x1="1.6002" y1="0.381" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="-0.7112"/>
+<vertex x="2.54" y="0.5588"/>
+<vertex x="3.302" y="-0.7112"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-1.9812" y="0"/>
+<vertex x="-1.2192" y="0.254"/>
+<vertex x="-1.2192" y="-0.254"/>
+</polygon>
+<text x="5.08" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="IRF1018EPBF">
+<gates>
+<gate name="G$1" symbol="LABELED-NMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:25914649/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3495,7 +3526,7 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k">
 <attribute name="SPICEPREFIX" value="R"/>
 </part>
-<part name="Q1" library="Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device=""/>
+<part name="Q1" library="Dist_Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="1M"/>
 <part name="D1" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="15V"/>
 <part name="D2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="22V"/>
@@ -3506,8 +3537,8 @@ https://www.samtec.com/products/mppt-10-01-01-l-ra-sd</description>
 <part name="48V_POE" library="Dist_POE" deviceset="POE_TERMINAL" device=""/>
 <part name="U1" library="Dist_OR_Controller" deviceset="DIST_OR_DIODE" device="DGK0008A_M" value="LM74610"/>
 <part name="U2" library="Dist_OR_Controller" deviceset="DIST_OR_DIODE" device="DGK0008A_M" value="LM74610"/>
-<part name="Q3" library="Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device=""/>
-<part name="Q4" library="Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device=""/>
+<part name="Q3" library="Dist_Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
+<part name="Q4" library="Dist_Reverse_Voltage_NMOS" deviceset="IRF1018EPBF" device="" package3d_urn="urn:adsk.eagle:package:25914649/1"/>
 <part name="D4" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="DIODE-ZENER" device="-BZT52C3V6S" package3d_urn="urn:adsk.eagle:package:38441/1" value="5V"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" library_urn="urn:adsk.eagle:library:514" deviceset="MOSFET-NCH" device="-2N7002PW" package3d_urn="urn:adsk.eagle:package:38456/1" value="SSM3K341R"/>
 <part name="TETHER" library="Dist_To_Tether_Connector" deviceset="DIST_TO_TETHER" device="" value="48V"/>
