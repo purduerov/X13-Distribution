@@ -3508,6 +3508,86 @@ Switches electronic signals</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="con-samtec" urn="urn:adsk.eagle:library:184">
+<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SSW-101-02-G-S" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="1.155" x2="1.399" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="1.155" x2="1.399" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-1.155" x2="-1.399" y2="-1.155" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-1.155" x2="-1.399" y2="1.155" width="0.2032" layer="21"/>
+<wire x1="-0.745" y1="0.755" x2="0.755" y2="0.755" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="0.755" x2="0.755" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="0.755" y1="-0.745" x2="-0.745" y2="-0.745" width="0.2032" layer="51"/>
+<wire x1="-0.745" y1="-0.745" x2="-0.745" y2="0.755" width="0.2032" layer="51"/>
+<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-1.905" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="SSW-101-02-G-S-RA" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<wire x1="-1.399" y1="-8.396" x2="1.399" y2="-8.396" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-8.396" x2="1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="1.399" y1="-0.106" x2="-1.399" y2="-0.106" width="0.2032" layer="21"/>
+<wire x1="-1.399" y1="-0.106" x2="-1.399" y2="-8.396" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="1.524" drill="1" diameter="1.5" shape="octagon"/>
+<text x="-1.905" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="3.175" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="0" x2="0.254" y2="1.778" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FPINV" library_version="2">
+<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
+<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SSW-101-02-G-S" prefix="X" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
+Source: Samtec SSW.pdf</description>
+<gates>
+<gate name="-1" symbol="FPINV" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="SSW-101-02-G-S">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-S" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="11P9336" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-RA" package="SSW-101-02-G-S-RA">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Samtec Inc." constant="no"/>
+<attribute name="MPN" value="SSW-101-02-G-S-RA" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="11P9337" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3573,6 +3653,12 @@ Switches electronic signals</description>
 <part name="U4" library="Dist_OR_Controller" deviceset="DIST_OR_CONTROL_ALT" device="MK06A-M" value="LM5050"/>
 <part name="BRICK1" library="Brick_Dist_Connector" deviceset="DIST2BRICK" device="VER_D2"/>
 <part name="BRICK2" library="Brick_Dist_Connector" deviceset="DIST2BRICK" device="VER_D2"/>
+<part name="+48V_TEST" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
+<part name="48GND_TEST" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
+<part name="+12V_A_TEST" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
+<part name="12_GND" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
+<part name="+12V_B_TEST" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
+<part name="+12V_TEST" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="SSW-101-02-G-S" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3764,6 +3850,30 @@ Switches electronic signals</description>
 <instance part="BRICK2" gate="G$1" x="38.1" y="63.5" smashed="yes">
 <attribute name="NAME" x="38.608" y="72.136" size="1.778" layer="95"/>
 </instance>
+<instance part="+48V_TEST" gate="-1" x="312.42" y="111.76" smashed="yes">
+<attribute name="VALUE" x="309.88" y="114.3" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="112.522" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="48GND_TEST" gate="-1" x="312.42" y="106.68" smashed="yes">
+<attribute name="VALUE" x="309.88" y="109.22" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="107.442" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="+12V_A_TEST" gate="-1" x="312.42" y="81.28" smashed="yes">
+<attribute name="VALUE" x="309.88" y="83.82" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="82.042" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="12_GND" gate="-1" x="312.42" y="76.2" smashed="yes">
+<attribute name="VALUE" x="309.88" y="78.74" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="76.962" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="+12V_B_TEST" gate="-1" x="312.42" y="71.12" smashed="yes">
+<attribute name="VALUE" x="309.88" y="73.66" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="71.882" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="+12V_TEST" gate="-1" x="312.42" y="66.04" smashed="yes">
+<attribute name="VALUE" x="309.88" y="68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="309.372" y="66.802" size="1.524" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3839,6 +3949,11 @@ Switches electronic signals</description>
 <wire x1="302.26" y1="160.02" x2="299.72" y2="160.02" width="0.1524" layer="91"/>
 <label x="299.72" y="160.02" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="+12V_TEST" gate="-1" pin="1"/>
+<wire x1="314.96" y1="66.04" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
+<label x="317.5" y="66.04" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="+12V_A" class="0">
 <segment>
@@ -3858,6 +3973,11 @@ Switches electronic signals</description>
 <pinref part="U3" gate="A" pin="IN"/>
 <wire x1="302.26" y1="154.94" x2="299.72" y2="154.94" width="0.1524" layer="91"/>
 <label x="299.72" y="154.94" size="0.8128" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="+12V_A_TEST" gate="-1" pin="1"/>
+<wire x1="314.96" y1="81.28" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
+<label x="317.5" y="81.28" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+12V_B" class="0">
@@ -3879,6 +3999,11 @@ Switches electronic signals</description>
 <wire x1="302.26" y1="129.54" x2="299.72" y2="129.54" width="0.1524" layer="91"/>
 <label x="299.72" y="129.54" size="0.8128" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="+12V_B_TEST" gate="-1" pin="1"/>
+<wire x1="314.96" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<label x="317.5" y="71.12" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="ON/OFF_DRIVE" class="0">
 <segment>
@@ -3899,9 +4024,9 @@ Switches electronic signals</description>
 <wire x1="168.91" y1="156.21" x2="168.91" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="184.15" y1="154.94" x2="168.91" y2="154.94" width="0.1524" layer="91"/>
 <junction x="168.91" y="154.94"/>
-<wire x1="184.15" y1="154.94" x2="189.23" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="184.15" y1="154.94" x2="186.182" y2="154.94" width="0.1524" layer="91"/>
 <junction x="184.15" y="154.94"/>
-<label x="189.23" y="154.94" size="1.778" layer="95" xref="yes"/>
+<label x="186.182" y="154.94" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="168.91" y1="151.13" x2="168.91" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="NMOS" pin="D"/>
@@ -3964,6 +4089,11 @@ Switches electronic signals</description>
 <label x="31.75" y="24.13" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="CONVERSION" gate="G$1" pin="VIN+"/>
 </segment>
+<segment>
+<pinref part="+48V_TEST" gate="-1" pin="1"/>
+<wire x1="314.96" y1="111.76" x2="317.5" y2="111.76" width="0.1524" layer="91"/>
+<label x="317.5" y="111.76" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="48V_GND" class="0">
 <segment>
@@ -4006,6 +4136,11 @@ Switches electronic signals</description>
 <wire x1="35.56" y1="19.05" x2="31.75" y2="19.05" width="0.1524" layer="91"/>
 <label x="31.75" y="19.05" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="CONVERSION" gate="G$1" pin="VIN-"/>
+</segment>
+<segment>
+<pinref part="48GND_TEST" gate="-1" pin="1"/>
+<wire x1="314.96" y1="106.68" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
+<label x="317.5" y="106.68" size="0.8128" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -4142,6 +4277,12 @@ Switches electronic signals</description>
 <pinref part="U3" gate="A" pin="GND"/>
 <wire x1="337.82" y1="157.48" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="340.36" y="157.48" size="0.8128" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="12_GND" gate="-1" pin="1"/>
+<wire x1="314.96" y1="76.2" x2="317.5" y2="76.2" width="0.1524" layer="91"/>
+<label x="317.5" y="76.2" size="0.8128" layer="95" xref="yes"/>
+<wire x1="314.96" y1="76.2" x2="317.5" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
